@@ -1,4 +1,4 @@
-NAME = hardware/nsd-dnssec:testing
+NAME = donotconnect/nsd-dnssec:latest
 
 all: build-no-cache init fixtures run clean
 all-fast: build init fixtures run clean
