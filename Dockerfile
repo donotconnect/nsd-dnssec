@@ -1,7 +1,7 @@
 FROM alpine:3.11
 
-LABEL description "Simple DNS authoritative server with DNSSEC support" \
-      maintainer="Hardware <contact@meshup.net>"
+LABEL description "Simple DNS authoritative server with DNSSEC support (previously maintained as hardware/nsd-dnssec)" \
+      maintainer="Fabian Letzkus <mail@donotconnect.de>"
 
 ARG NSD_VERSION=4.2.4
 
